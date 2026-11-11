@@ -42,3 +42,28 @@ dialysis-analysis-project/
 ├── requirements.txt
 └── README.md
 ```
+## API
+
+| Endpoint | Description |
+|---|---|
+| `GET /api/data` | All records as a JSON array |
+| `GET /stream` | Server-Sent Events: one new record as JSON every `INTERVAL` seconds |
+
+## Data dictionary
+
+| Column | Meaning |
+|---|---|
+| `id` | Patient ID |
+| `age` | Age in years |
+| `ag` | Age group: 18-29, 30-44, 45-59, 60-74, 75+ |
+| `g` | Gender |
+| `dis` | Primary diagnosis |
+| `fac` | Dialysis facility |
+| `chain` | Chain organisation that owns the facility |
+| `st` | Dialysis station (e.g. S3) |
+| `pm` | Payment mode: Insurance, Government Scheme, Cash, Card, Corporate Tie-up |
+| `mo` | Month index, 0 to 11 |
+| `sess` | Number of dialysis sessions |
+| `billed` | Amount billed (₹) |
+| `paid` | Amount actually collected after discounts or reductions (₹) |
+| `stations` | Number of stations at the facility |

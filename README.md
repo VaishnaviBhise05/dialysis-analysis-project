@@ -67,3 +67,10 @@ dialysis-analysis-project/
 | `billed` | Amount billed (₹) |
 | `paid` | Amount actually collected after discounts or reductions (₹) |
 | `stations` | Number of stations at the facility |
+
+## Analysis covered
+
+1. Patient and disease distribution by age and gender
+2. Chain, facility and dialysis station utilisation
+3. Payment mode split, discounts and the gap between billed and collected amounts
+4. Insights and recommendations, such as rebalancing station load and reviewing high-discount facilities

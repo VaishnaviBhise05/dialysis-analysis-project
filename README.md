@@ -71,6 +71,9 @@ dialysis-analysis-project/
 | `paid` | Amount actually collected after discounts or reductions (₹) |
 | `stations` | Number of stations at the facility |
 
+<img width="1605" height="833" alt="Screenshot 2026-11-11 130418" src="https://github.com/user-attachments/assets/2bfb5240-0a98-4b7c-9f23-10a8aebd0d8a" />
+
+
 ## Analysis covered
 
 1. Patient and disease distribution by age and gender

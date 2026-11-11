@@ -5,6 +5,9 @@
 > All data in this repository is **synthetic**. It contains no real patient information.
 
 ---
+
+<img width="1611" height="877" alt="Screenshot 2026-11-11 130402" src="https://github.com/user-attachments/assets/e90aaf0e-1d6c-4a1e-ab9b-dd04704e67e6" />
+
 ## Features
 
 - **Real-time updates**: the server streams a new patient billing record every 2 seconds (Server-Sent Events), and the dashboard refreshes automatically.

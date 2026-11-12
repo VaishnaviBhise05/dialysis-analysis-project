@@ -8,7 +8,7 @@
 
 <img width="1611" height="877" alt="Screenshot 2026-11-11 130402" src="https://github.com/user-attachments/assets/e90aaf0e-1d6c-4a1e-ab9b-dd04704e67e6" />
 
-## Features
+## Features. 
 
 - **Real-time updates**: the server streams a new patient billing record every 2 seconds (Server-Sent Events), and the dashboard refreshes automatically.
 - **Filters**: chain, disease and payment mode, applied to every chart, KPI and table at once.
@@ -45,6 +45,7 @@ dialysis-analysis-project/
 ├── requirements.txt
 └── README.md
 ```
+
 ## API
 
 | Endpoint | Description |
@@ -79,4 +80,5 @@ dialysis-analysis-project/
 1. Patient and disease distribution by age and gender
 2. Chain, facility and dialysis station utilisation
 3. Payment mode split, discounts and the gap between billed and collected amounts
-4. Insights and recommendations, such as rebalancing station load and reviewing high-discount facilities
+4. Insights and recommendations, such as rebalancing station load and reviewing high-discount facilities.
+   
